@@ -1,0 +1,116 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Principal</title>
+
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <link rel = "stylesheet"
+          href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel = "stylesheet"
+          href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <script type = "text/javascript"
+            src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            // Activate the side menu
+            $(".button-collapse").sideNav();
+        });
+    </script>
+</head>
+<body>
+<style>
+    .nav-wrapper {
+        background-color: #343a40 !important;
+        font-size: 14px;
+        font-weight: bold;
+    }
+</style>
+<nav>
+    <div class="navbar-fixed">
+        <nav>
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">Mudar Cadastro</a></li>
+                <li><a href="#!">Alterar Senha</a></li>
+            </ul>
+            
+			<ul id="dropdown4" class="dropdown-content">
+                <li><a href="#!">Listar Empresas</a></li>
+				<li><a href="#!">Cadastrar Empresas</a></li>
+            </ul>
+			
+            <ul id="dropdown2" class="dropdown-content">
+                <li><a href="#!">Listar Anúncios</a></li>
+				<li><a href="#!">Cadastrar Anúncios</a></li>
+            </ul>
+
+            <ul id="ddusuarios" class="dropdown-content">
+                <li><a id="lusuarios" href="#!">Listar Usuários</a></li>
+				<li><a id="lusuarios" href="#!">Cadastrar Usuários</a></li>
+            </ul>
+
+
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">Logo</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="left hide-on-med-and-down">
+                    <li class="active"><a href="#">Início</a></li>
+                    <li><a a class="dropdown-button" data-beloworigin="true" data-hover="true" data-constrainwidth="false" href="#!" data-activates="ddusuarios">Usuários<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a a class="dropdown-button" data-beloworigin="true" data-hover="true" data-constrainwidth="false" href="#!" data-activates="dropdown4">Empresas<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a a class="dropdown-button" data-beloworigin="true" data-hover="true" data-constrainwidth="false" href="#!" data-activates="dropdown2">Anúncios<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a class="dropdown-button" data-beloworigin="true" data-hover="true" data-constrainwidth="false" href="#!" data-activates="dropdown1">Dados da Conta<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="#">Sair</a></li>
+                </ul>
+
+                <ul id="mobile-demo" class="side-nav">
+                    <li class="no-padding">
+                        <ul class="collapsible collapsible-accordion">
+                            <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Dropdown 1</a>
+                                <div class="collapsible-body">
+                                    <ul>
+                                        <li><a href="#">Link1</a></li>
+                                        <li><a href="#">link2</a></li>
+                                        <li><a href="#">link3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Dropdown 2</a>
+                                <div class="collapsible-body">
+                                    <ul>
+                                        <li><a href="#">link1</a></li>
+                                        <li><a href="#">link2</a></li>
+                                        <li><a href="#">link3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Dropdown 3</a>
+                                <div class="collapsible-body">
+                                    <ul>
+                                        <li><a href="#">link1</a></li>
+                                        <li><a href="#">link2</a></li>
+                                        <li><a href="#">link3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="bold"><a href="getting-started.html" class="waves-effect waves-teal">Normal link 1</a></li>
+                            <li class="bold"><a href="getting-started.html" class="waves-effect waves-teal">Normal link 2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+</body>
+
+</html>
